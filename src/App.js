@@ -8,25 +8,29 @@ function App() {
     itemName: 'ryzen9',
     price:85000,
     img:"https://images-na.ssl-images-amazon.com/images/I/616VM20%2BAzL._AC_SX466_.jpg",
-    description:'AMD Ryzen™ 9 5900X. 12 cores to power through gaming, streaming and more'
+    description:'AMD Ryzen™ 9 5900X. 12 cores to power through gaming, streaming and more',
+    rating : 5
   },{
     id:2,
     itemName:'nvidiaRTX3080',
     price:70000,
     img:"https://images-na.ssl-images-amazon.com/images/I/81ZLD6UwM%2BL._SX450_.jpg",
-    description:"The GeForce RTX™ 3080 delivers the ultra performance that gamers crave, powered by Ampere—NVIDIA's "
+    description:"The GeForce RTX™ 3080 delivers the ultra performance that gamers crave, powered by Ampere—NVIDIA's ",
+    rating : 4
   },{
     id:3,
     itemName:'nvidiaRTX3060ti',
     price:50000,
     img:"https://images-na.ssl-images-amazon.com/images/I/81CMY-2T2BL._SL1500_.jpg",
-    description:"The GeForce RTX™ 3060ti delivers the ultra performance that gamers crave, powered by Ampere—NVIDIA's "
+    description:"The GeForce RTX™ 3060ti delivers the ultra performance that gamers crave, powered by Ampere—NVIDIA's ",
+    rating : 2
   },{
     id:4,
     itemName: 'ryzen7',
     price:85000,
     img:"https://images-na.ssl-images-amazon.com/images/I/717Di3DGIbL._SX679_.jpg",
-    description:'AMD Ryzen™ 7 3700X. 8 cores to power through gaming, streaming and more'
+    description:'AMD Ryzen™ 7 3700X. 8 cores to power through gaming, streaming and more',
+    rating :3
   }];
 const [card, setCard] = useState([]);
 const [total, setTotal] = useState(0);

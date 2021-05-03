@@ -5,10 +5,10 @@ function Shop(props){
     return(
          <div className="col-lg-4 col-md-6 mb-4">
              <div className="card h-100">
-                <a href="#"><img className="card-img-top" src={props.detail.img} alt=""/></a>
+                <a><img className="card-img-top" src={props.detail.img} alt=""/></a>
                     <div className="card-body">
                      <h4 className="card-title">
-                         <a href="#">{props.detail.itemName}</a>
+                         <a>{props.detail.itemName}</a>
                     </h4>
                      <h5>Rs.{props.detail.price}</h5>
                     <p className="card-text">{props.detail.description}</p>

@@ -34,7 +34,7 @@ const [total, setTotal] = useState(0);
 let addToCart = (product)=>{
   let flag=0;
   card.forEach(element => {
-    if(element.id==product.id) flag=1;
+    if(element.id===product.id) flag=1;
   });
   if(flag===0){
     setCard ([...card,product]);
